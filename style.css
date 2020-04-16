@@ -1,8 +1,19 @@
+
 body{
+    
+    margin: 0px;
     font-family: 'Poppins', sans-serif;
+    
 }
 h1{
+   
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 .namehighlight
 {
@@ -12,10 +23,78 @@ h1{
 {
     width: 40%;
     float: left;
-    margin: 3%;
+    margin-left: 5%;
     padding-left: 2%;
 
 }
 .halfwidth img{
     width: 100%;
+}
+.topbanner
+{
+    
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+
+    height: 500px;
+    padding-bottom: 150px;
+}
+.linkbutton
+{
+    text-decoration: none;
+    background-image: linear-gradient( lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.objective{
+
+    background-image: url("images/objective.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
+
+}
+.experiencehighlight
+{
+    color: orange;
+}
+.singleexperience
+{
+        
+    box-shadow: 10px 10px 40px gray ;
+    border-radius: 10px;
+    height: 80%;
+    border-left: 7px solid;
+    background-color: white;
+}
+.experience{
+
+    background-image: url("images/exp.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#professionalid
+{ 
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+   border-image-slice: 1;
+}
+
+
+#beginnerid{
+
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg,blue, tomato);
+   border-image-slice: 1;
+
+}
+
+footer p{
+
+    text-align: center;
+    font-size: 12px;
 }
