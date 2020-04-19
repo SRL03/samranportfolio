@@ -1,100 +1,162 @@
-
-body{
-    
-    margin: 0px;
-    font-family: 'Poppins', sans-serif;
-    
-}
 h1{
+     font-size: 50px;
+ }
+ * {
+   box-sizing: border-box;
+ }
+ h2{
+     font-size: 2vw;
+     color: darkblue;
+ }
+ h2:hover{
+     
+     color: rgb(86, 226, 43);
+ }
+ .namehighlight
+ {
+     color: orange;
+ }
+ .academichighlight{
+     
+     font-weight: bold;
+     color: black;
+ }
+ /* Create four equal columns that floats next to each other */
+ .column {
+   float: left;
+   width: 45%;
+   padding: 20px;
+   box-shadow: 10px 10px 40px gray ;
+     border-radius: 10px;
+     height: 80%;
+     border-left: 7px solid;
+     background-color: white;
+     background-image: url("images/bio.png");
+     background-repeat: no-repeat;
+     background-position: left;
+     border-left: 7px solid;
+     border-image: linear-gradient( 180deg,blue, tomato);
+    border-image-slice: 1;
+    margin-left: 2%;
+    margin-bottom: 2%;
+     
+ }
+ .columna {
+   float: left;
+   width: 45%;
+   background-image: url("images/top-banner.png");
+   background-size: cover;
+     background-repeat: no-repeat;
+     background-position: left;
+     margin-bottom: 2%;  
+ }
+ .columnc {
+   float: left;
+   width: 45%;
+   background-image: url("images/career.png");
+   background-size: cover;
+     background-repeat: no-repeat;
+     background-position: right;
+     margin-bottom: 2%;  
+ }
+ 
+ .columnb {
+   float: left;
+   width: 45%;
+   margin-bottom: 2%;
+   margin-left: 2%;
    
-    font-size: 50px;
-}
-h2{
-    font-size: 40px;
-}
-p{
-    color: dimgray;
-}
-.namehighlight
-{
-    color: orange;
-}
-.halfwidth
-{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-
-}
-.halfwidth img{
-    width: 100%;
-}
-.topbanner
-{
-    
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
-}
-section{
-
-    height: 500px;
-    padding-bottom: 150px;
-}
-.linkbutton
-{
-    text-decoration: none;
-    background-image: linear-gradient( lightsalmon, tomato);
-    padding: 10px 20px;
-    border-radius: 10px;
-    color: white;
-    font-weight: bold;
-}
-.objective{
-
-    background-image: url("images/objective.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    
-
-}
-.experiencehighlight
-{
-    color: orange;
-}
-.singleexperience
-{
-        
-    box-shadow: 10px 10px 40px gray ;
-    border-radius: 10px;
-    height: 80%;
-    border-left: 7px solid;
-    background-color: white;
-}
-.experience{
-
-    background-image: url("images/exp.png");
-    background-repeat: no-repeat;
-    background-position: left;
-}
-#professionalid
-{ 
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato);
-   border-image-slice: 1;
-}
-
-
-#beginnerid{
-
-    border-left: 7px solid;
-    border-image: linear-gradient( 180deg,blue, tomato);
-   border-image-slice: 1;
-
-}
-
-footer p{
-
-    text-align: center;
-    font-size: 12px;
-}
+   
+ }
+ .linkbutton
+ {
+     text-decoration: none;
+     background-image: linear-gradient( lightsalmon, tomato);
+     padding: 5x 10px;
+     border-radius: 10px;
+     color: white;
+     font-weight: 200px;
+ }
+ .linkbutton:hover
+ {
+     font-size: 20px;
+ }
+ p{
+     color: dimgray;
+     font-size: 1.5vw;
+ }
+ .fonthover:hover
+ {
+     font-size: 2vw;
+ }
+ .fonthovera:hover
+ {
+     font-weight: bold;
+ }
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+ /* On screens that are 992px wide or less, go from four columns to two columns */
+ @media screen and (max-width: 992px) {
+   .column {
+     width: 50%;
+   }
+ }
+ 
+ /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+   .column {
+     width: 100%;
+   }
+ }
+ 
+ /* On screens that are 992px wide or less, go from four columns to two columns */
+ @media screen and (max-width: 992px) {
+   .columna {
+     width: 50%;
+   }
+ }
+ 
+ /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+   .columna {
+     width: 100%;
+   }
+ }
+ /* On screens that are 992px wide or less, go from four columns to two columns */
+ @media screen and (max-width: 992px) {
+   .columnb {
+     width: 50%;
+   }
+ }
+ 
+ /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+   .columnb {
+     width: 100%;
+   }
+ }
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .columnc {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .columnc {
+      width: 100%;
+    }
+  }
+ 
+ footer p{
+ 
+ text-align: center;
+ font-size: 1vw;
+ }
+ 
